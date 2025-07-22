@@ -79,7 +79,7 @@ const HeroSection = () => {
             >
               <div className="aspect-video bg-gray-900 rounded-xl relative overflow-hidden">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  src="https://www.youtube.com/embed/AccbitRHPSc?si=5VCkQqeBv_-kAbf6"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
