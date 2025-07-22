@@ -46,7 +46,7 @@ const ProductsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl font-bold mb-6">
-            FEATURED <span className="text-accent">PRODUCTS</span>
+            PRODUITS <span className="text-accent">VEDETTES</span>
           </h2>
         </motion.div>
 
@@ -84,7 +84,7 @@ const ProductsSection = () => {
                   </h3>
                   
                   <div className="flex items-center mb-3">
-                    <span className="text-sm text-gray-400 mr-2">Starting at</span>
+                    <span className="text-sm text-gray-400 mr-2">À partir de</span>
                     <span className="text-2xl font-bold text-accent">{product.price}</span>
                   </div>
 
@@ -100,7 +100,7 @@ const ProductsSection = () => {
                     whileTap={{ scale: 0.98 }}
                     className="w-full py-3 border border-accent/50 text-accent font-medium rounded-lg hover:border-accent transition-all duration-300 flex items-center justify-center group mt-auto"
                   >
-                    View Details
+                    Voir Détails
                     <motion.span 
                       className="ml-2 group-hover:translate-x-1 transition-transform duration-300"
                     >

@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'CodUnlocks - Unfair Advantage Guaranteed',
-  description: 'Stay ahead of the competition with our undetectable software.',
+  title: 'Castrounlocks - Avantage Déloyal Garanti',
+  description: 'Gardez une longueur d\'avance sur la concurrence avec nos logiciels indétectables.',
 }
 
 export default function RootLayout({

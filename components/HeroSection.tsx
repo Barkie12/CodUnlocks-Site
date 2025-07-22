@@ -21,9 +21,9 @@ const HeroSection = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-6xl lg:text-7xl font-bold leading-tight"
               >
-                Unfair <br />
-                advantage, <br />
-                <span className="text-accent">guaranteed.</span>
+                Avantage <br />
+                déloyal, <br />
+                <span className="text-accent">garanti.</span>
               </motion.h1>
               
               <motion.p 
@@ -32,7 +32,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="text-lg text-gray-300 max-w-md"
               >
-                Stay ahead of the competition with our undetectable software.
+                Gardez une longueur d'avance sur la concurrence avec nos logiciels indétectables.
               </motion.p>
             </div>
 
@@ -50,7 +50,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-all duration-300"
               >
-                EXPLORE PRODUCTS
+                EXPLORER LES PRODUITS
               </motion.button>
               
               <motion.button
@@ -61,7 +61,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 border border-gray-600 text-white font-semibold rounded-lg hover:border-gray-400 transition-all duration-300"
               >
-                OUR DISCORD
+                NOTRE DISCORD
               </motion.button>
             </motion.div>
           </motion.div>

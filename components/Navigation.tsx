@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 const Navigation = () => {
   const navItems = [
-    'HOME',
-    'PRODUCTS', 
-    'STATUS',
+    'ACCUEIL',
+    'PRODUITS', 
+    'STATUT',
     'DISCORD',
-    'TOS'
+    'CGU'
   ]
 
   return (

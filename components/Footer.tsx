@@ -18,7 +18,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-white mb-3">castrounlocks</h3>
-            <p className="text-gray-400 text-lg">Premium gaming enhancement solutions</p>
+                          <p className="text-gray-400 text-lg">Solutions d'amélioration de jeu premium</p>
           </motion.div>
 
           {/* Footer Links */}
@@ -34,14 +34,14 @@ const Footer = () => {
               whileHover={{ color: '#ff080b' }}
               className="text-gray-400 hover:text-accent transition-colors duration-300"
             >
-              Privacy Policy
+              Politique de Confidentialité
             </motion.a>
             <motion.a
               href="#"
               whileHover={{ color: '#ff080b' }}
               className="text-gray-400 hover:text-accent transition-colors duration-300"
             >
-              Terms of Service
+              Conditions d'Utilisation
             </motion.a>
             <motion.a
               href="#"
@@ -68,7 +68,7 @@ const Footer = () => {
             className="pt-8 border-t border-gray-800/50"
           >
             <p className="text-gray-500 text-sm mb-4">
-              © {currentYear} Castrounlocks. All rights reserved.
+              © {currentYear} Castrounlocks. Tous droits réservés.
             </p>
           </motion.div>
         </div>
@@ -81,7 +81,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex justify-between items-center pt-6 border-t border-gray-800/30"
         >
-          <p className="text-gray-500 text-sm">Powered by the community</p>
+          <p className="text-gray-500 text-sm">Alimenté par la communauté</p>
           
           <motion.a
             href="https://barkie.dev"
@@ -93,7 +93,7 @@ const Footer = () => {
             }}
             className="text-gray-500 text-sm hover:text-accent transition-colors duration-300 flex items-center"
           >
-            Made with <span className="text-accent mx-1">❤️</span> by barkie.dev
+            Créé avec <span className="text-accent mx-1">❤️</span> par barkie.dev
           </motion.a>
         </motion.div>
       </div>

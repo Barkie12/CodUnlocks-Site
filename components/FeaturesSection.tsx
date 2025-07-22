@@ -12,23 +12,23 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: Shield,
-      title: "Secure Payments",
-      description: "WooCommerce integration ensures secure, reliable payment processing for all purchases."
+      title: "Paiements Sécurisés",
+      description: "L'intégration WooCommerce garantit un traitement sécurisé et fiable des paiements pour tous les achats."
     },
     {
       icon: Eye,
-      title: "Undetected", 
-      description: "Our products are undetected and safe to use, with regular updates to maintain security."
+      title: "Indétectable", 
+      description: "Nos produits sont indétectables et sûrs à utiliser, avec des mises à jour régulières pour maintenir la sécurité."
     },
     {
       icon: Clock,
-      title: "24/7 Support",
-      description: "Our dedicated support team is available around the clock to assist you with any questions or concerns."
+      title: "Support 24/7",
+      description: "Notre équipe de support dédiée est disponible 24h/24 pour vous aider avec toutes vos questions ou préoccupations."
     },
     {
       icon: Zap,
-      title: "Instant Delivery",
-      description: "Automated delivery system ensures you receive your purchase immediately after payment confirmation."
+      title: "Livraison Instantanée",
+      description: "Le système de livraison automatisé garantit que vous recevez votre achat immédiatement après confirmation du paiement."
     }
   ]
 
@@ -44,11 +44,11 @@ const FeaturesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl font-bold mb-6">
-            Advanced <span className="text-accent">Features</span>
+            Fonctionnalités <span className="text-accent">Avancées</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Experience premium service with our comprehensive suite of features designed to make your 
-            shopping experience seamless and secure.
+            Découvrez un service premium avec notre suite complète de fonctionnalités conçues pour rendre votre 
+            expérience d'achat fluide et sécurisée.
           </p>
         </motion.div>
 
